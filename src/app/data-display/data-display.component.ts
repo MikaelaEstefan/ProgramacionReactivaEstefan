@@ -30,7 +30,7 @@ export class DataDisplayComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    // Asegúrate de realizar el onDestroy de los observables utilizados
+    
     this.dataSubscription.unsubscribe();
   }
 }
